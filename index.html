@@ -4,20 +4,64 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="team">
+    <strong>meet the team</strong>
+    <div class="vertical-list">
+      <div class="person">
+        <div class="img-container">
+          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
+        </div>
+        <div class="info">
+          <strong>Noah Loomans</strong>
+          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="img-container">
+          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
+        </div>
+        <div class="info">
+          <strong>Noah Loomans</strong>
+          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="img-container">
+          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
+        </div>
+        <div class="info">
+          <strong>Noah Loomans</strong>
+          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="img-container">
+          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
+        </div>
+        <div class="info">
+          <strong>Noah Loomans</strong>
+          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
+        </div>
+      </div>
+      <div class="person">
+        <div class="img-container">
+          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
+        </div>
+        <div class="info">
+          <strong>Noah Loomans</strong>
+          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
+        </div>
+      </div>
+  </div>
 
-  <ul class="post-list">
+  <div class="blog">
+    <strong>Blog</strong>
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+    <article>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {{ post.excerpt }}
+    </article>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
 
 </div>
