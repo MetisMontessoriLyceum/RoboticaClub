@@ -45,6 +45,26 @@ header {
   }
 }
 
+.what-to-lean {
+  font-size: 2.5em;
+  margin: 15px;
+  margin-bottom: 20px;
+}
+
+.cursor {
+  border: 1px solid;
+  margin-left: 3px;
+  animation: blink 1s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 0; }
+  1% { opacity: 1; }
+  50% { opacity: 1; }
+  51% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
 .team {
   > strong {
     display: block;
