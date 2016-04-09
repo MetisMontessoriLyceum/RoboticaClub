@@ -1,3 +1,7 @@
+if (window.location.host.substr(-10) == '.github.io' && window.location.protocol != 'https:') {
+    window.location.protocol = 'https:';
+}
+
 $(document).ready(function () {
   $('.menu-container').click(function () {
     $('.nav-container').addClass('show');
