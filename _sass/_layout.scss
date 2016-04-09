@@ -1,3 +1,8 @@
+.page-content {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
 header {
   background-image: url(#{$base-url}/assets/background.jpg);
   background-size: cover;
