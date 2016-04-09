@@ -32,8 +32,9 @@ function type () {
   var startLen = $textBox.height();
   $textBox.find('strong').text(data.thingsYouCanLearn[data.thing].slice(0,data.letter+1));
   var currentLen = $textBox.height();
-  if ($(document).scrollTop()-(currentLen-startLen) > $('header').height()) {
-    $(document).scrollTop($(document).scrollTop()+(currentLen-startLen));
+  var currentScroll = $(document).scrollTop();
+  if (currentScroll > $('header').height()) {
+    $(document).scrollTop(currentScroll+(currentLen-startLen));
   }
   data.letter++;
   if (data.letter == data.thingsYouCanLearn[data.thing].length) {
