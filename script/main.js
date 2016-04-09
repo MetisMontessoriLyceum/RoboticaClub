@@ -28,7 +28,13 @@ var data = {
 }
 
 function type () {
-  $('.what-to-lean').find('strong').text(data.thingsYouCanLearn[data.thing].slice(0,data.letter+1));
+  var $textBox = $('.what-to-lean');
+  var startLen = $textBox.height();
+  $textBox.find('strong').text(data.thingsYouCanLearn[data.thing].slice(0,data.letter+1));
+  var currentLen = $textBox.height();
+  if ($(document).scrollTop()-(currentLen-startLen) > $('header').height()) {
+    $(document).scrollTop($(document).scrollTop()+(currentLen-startLen));
+  }
   data.letter++;
   if (data.letter == data.thingsYouCanLearn[data.thing].length) {
     if (data.thing == data.thingsYouCanLearn.length-1) {
