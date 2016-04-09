@@ -29,10 +29,10 @@ var data = {
 
 function type () {
   var $textBox = $('.what-to-lean');
+  var currentScroll = $(document).scrollTop();
   var startLen = $textBox.height();
   $textBox.find('strong').text(data.thingsYouCanLearn[data.thing].slice(0,data.letter+1));
   var currentLen = $textBox.height();
-  var currentScroll = $(document).scrollTop();
   if (currentScroll > $('header').height()) {
     $(document).scrollTop(currentScroll+(currentLen-startLen));
   }
