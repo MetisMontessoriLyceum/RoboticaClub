@@ -6,7 +6,7 @@ image: "noah-robot.jpg"
 published: true
 ---
 
-Hi there, my name is Noah, I build robots. By the way, I made this website. Here is some Lorer ipsum:
+Hi there, my name is Noah, I build robots. By the way, I made this website. Here is some Lorem ipsum:
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
