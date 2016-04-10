@@ -23,6 +23,7 @@ markdown: kramdown
 host: 0.0.0.0
 
 prose:
+  media: '/assets'
   metadata:
     _posts/blog:
       - name: "category"
