@@ -1,9 +1,10 @@
 ---
 category: team
 image: ""
-published: false
+published: true
 title: Hakan Akkas
 ---
+
 
 ## Docent/Coach/Organisator
 
