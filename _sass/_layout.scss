@@ -45,10 +45,49 @@ header {
   }
 }
 
+@media (min-width: 768px) {
+  header {
+    .menu-container {
+      display: none;
+    }
+    .nav-container {
+      transition-property: none;
+      background-color: inherit;
+      position: relative;
+      opacity: 1;
+      pointer-events: auto;
+      nav {
+        transform: translate3d(0,0,0);
+        position: static;
+        width: 100%;
+        background-color: inherit;
+        box-shadow: inherit;
+        ul {
+          padding-top: 15px;
+          display: flex;
+          .grow {
+            flex-grow: 1;
+          }
+          a {
+            color: white;
+            &:visited {
+              color: white;
+            }
+          }
+        }
+        .close {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 .what-to-lean {
   font-size: 2.5em;
   margin: 15px;
   margin-bottom: 20px;
+  min-height: 122px;
 }
 
 .cursor {
@@ -57,6 +96,7 @@ header {
   animation: blink 1s infinite;
 }
 
+// TODO: fix this horrible hack.
 @-webkit-keyframes blink {
   0% { opacity: 0; }
   1% { opacity: 1; }
@@ -136,23 +176,29 @@ header {
   top: 0px;
   opacity: 0;
   pointer-events: none;
-  transition: all 400ms ease-in-out;
 }
 .nav-container.show {
   opacity: 1;
   pointer-events: auto;
+  z-index: 1;
   nav {
-    left: 0px;
+    transform: translate3d(0,0,0)
+  }
+}
+.nav-container.animate {
+  transition: opacity 350ms ease-in-out;
+  nav {
+    transition: transform 400ms ease-in-out;
   }
 }
 nav {
-  transition: all 400ms ease-in-out;
   background-color: white;
   height: 100%;
   width: 200px;
   position: absolute;
   top: 0px;
-  left: -250px;
+  left: 0px;
+  transform: translate3d(-100%,0,0);
   text-shadow: none;
   box-shadow: 3px 0px 30px rgba(0, 0, 0, 0.4);
   color: black;
