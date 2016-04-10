@@ -1,6 +1,6 @@
 ---
 category: team
-image: foto robocup.jpg
+image: "\"foto robocup.jpg\""
 published: true
 title: Hakan Akkas
 ---
