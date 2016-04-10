@@ -35,6 +35,10 @@ prose:
         field:
           element: "text"
           placeholder: "title"
+      - name: "image"
+        field:
+          element: "text"
+          placeholder: "big image, eg. noah-robot.jpg"
     _posts/team:
       - name: "category"
         field:
