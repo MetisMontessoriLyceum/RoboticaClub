@@ -24,6 +24,7 @@ host: 0.0.0.0
 
 prose:
   media: 'assets'
+  rooturl: "_posts"
   metadata:
     _posts/blog:
       - name: "category"
