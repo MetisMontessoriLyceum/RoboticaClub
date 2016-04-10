@@ -11,60 +11,83 @@ layout: default
   <div class="team">
     <strong>meet the team</strong>
     <div class="vertical-list">
-      <div class="person">
-        <div class="img-container">
-          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
-        </div>
-        <div class="info">
-          <strong>Noah Loomans</strong>
-          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
-        </div>
-      </div>
-      <div class="person">
-        <div class="img-container">
-          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
-        </div>
-        <div class="info">
-          <strong>Noah Loomans</strong>
-          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
-        </div>
-      </div>
-      <div class="person">
-        <div class="img-container">
-          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
-        </div>
-        <div class="info">
-          <strong>Noah Loomans</strong>
-          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
-        </div>
-      </div>
-      <div class="person">
-        <div class="img-container">
-          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
-        </div>
-        <div class="info">
-          <strong>Noah Loomans</strong>
-          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
-        </div>
-      </div>
-      <div class="person">
-        <div class="img-container">
-          <img src="{{ site.baseurl }}/assets/noah-loomans.jpg" alt="photo of team member">
-        </div>
-        <div class="info">
-          <strong>Noah Loomans</strong>
-          <a href="{{ site.baseurl }}/team/noah-loomans">More</a>
-        </div>
-      </div>
+      {% for post in site.posts %}
+        {% if post.category == 'team' %}
+          <div class="person">
+            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            <div class="info">
+              <strong>{{ post.title }}</strong>
+              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
+            </div>
+            </div>
+        {% endif %}
+      {% endfor %}
+      {% for post in site.posts %}
+        {% if post.category == 'team' %}
+          <div class="person">
+            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            <div class="info">
+              <strong>{{ post.title }}</strong>
+              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
+            </div>
+            </div>
+        {% endif %}
+      {% endfor %}
+      {% for post in site.posts %}
+        {% if post.category == 'team' %}
+          <div class="person">
+            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            <div class="info">
+              <strong>{{ post.title }}</strong>
+              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
+            </div>
+            </div>
+        {% endif %}
+      {% endfor %}
+      {% for post in site.posts %}
+        {% if post.category == 'team' %}
+          <div class="person">
+            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            <div class="info">
+              <strong>{{ post.title }}</strong>
+              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
+            </div>
+            </div>
+        {% endif %}
+      {% endfor %}
+      {% for post in site.posts %}
+        {% if post.category == 'team' %}
+          <div class="person">
+            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            <div class="info">
+              <strong>{{ post.title }}</strong>
+              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
+            </div>
+            </div>
+        {% endif %}
+      {% endfor %}
+      {% for post in site.posts %}
+        {% if post.category == 'team' %}
+          <div class="person">
+            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            <div class="info">
+              <strong>{{ post.title }}</strong>
+              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
+            </div>
+            </div>
+        {% endif %}
+      {% endfor %}
   </div>
 
   <div class="blog">
     <strong>Blog</strong>
     {% for post in site.posts %}
-    <article>
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
-    </article>
+      {% if post.category == 'blog' %}
+        <article>
+          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+          {{ post.excerpt }}
+        </article>
+      {% endif %}
     {% endfor %}
   </div>
 

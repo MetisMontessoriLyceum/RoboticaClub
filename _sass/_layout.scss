@@ -135,10 +135,13 @@ header {
       flex: 0 0 150px;
       border-radius: 2px;
       overflow: hidden;
-      .img-container {
+      .image {
         width: 150px;
         height: 150px;
-        overflow: hidden;
+        background: {
+          position: center;
+          size: cover;
+        }
       }
       .info {
         padding: 5px;
