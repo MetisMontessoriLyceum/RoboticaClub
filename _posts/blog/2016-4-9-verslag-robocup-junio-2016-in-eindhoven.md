@@ -32,9 +32,7 @@ Dan hebben we nog de vijf dames die dit jaar voor het eerst hebben meegedaan aan
 
 Ik zou graag de volgende mensen nog willen bedanken:
 - Harry Oudejans: ontzettend bedankt voor de ondersteuning van het damesteam. Dankzij jou hebben ze aan hun technische vaardigheden kunnen werken om een goed onderstel te maken voor hun robot;
-
 - Astrid Krijger: ontzettend bedankt voor het ondersteunen van de dames m.b.t. het creatieve gedeelte;
-
 - Adem Ozturk: mijn steun en toeverlaat! Jij doet gewoon alles waar ik in tekort kom (jij en ik weten dat dat geen korte lijst is). Dankzij jou hebben de leerlingen nog de laatste puntjes op de i kunnen zetten.
 
 
