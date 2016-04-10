@@ -21,3 +21,16 @@ github_username:  jekyll
 markdown: kramdown
 
 host: 0.0.0.0
+
+prose:
+  metadata:
+    _posts/blog:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+    _posts/team:
+      - name: "team"
+        field:
+          element: "hidden"
+          value: "team"
