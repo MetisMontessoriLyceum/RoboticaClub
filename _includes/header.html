@@ -1,4 +1,9 @@
+{% if page.image != nil %}
+<header class="post-img"
+  style="background-image: url({{ site.baseurl }}/assets/{{ page.image }});">
+{% else %}
 <header>
+{% endif %}
   <div class="menu-container">
     <i class="fa fa-bars"></i>
   </div>

@@ -3,6 +3,10 @@
   margin: 0px auto;
 }
 
+header.post-img {
+  height: 359px;
+}
+
 header {
   background-image: url(#{$base-url}/assets/background.jpg);
   background-size: cover;
