@@ -1,15 +1,10 @@
 ---
 category: team
-image: foto robocup.jpg
-published: true
+layout: post
 title: Hakan Akkas
+image: "foto-robocup.jpg"
+published: true
 ---
-
-
-
-![foto robocup.jpg]({{site.baseurl}}/assets/foto robocup.jpg)
-
-
 ## Docent/Coach/Organisator
 
 Boe!
