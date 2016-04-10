@@ -29,8 +29,16 @@ prose:
         field:
           element: "hidden"
           value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "title"
     _posts/team:
-      - name: "team"
+      - name: "category"
         field:
           element: "hidden"
           value: "team"
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "name"
