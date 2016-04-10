@@ -3,7 +3,9 @@ category: team
 image: "\"foto robocup.jpg\""
 published: true
 title: Hakan Akkas
+layout: post
 ---
+
 
 
 ![foto robocup.jpg]({{site.baseurl}}/assets/foto robocup.jpg)
