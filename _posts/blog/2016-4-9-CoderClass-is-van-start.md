@@ -2,7 +2,7 @@
 category: blog
 layout: post
 title: "CoderClass is van start!"
-published: false
+published: true
 image: ""
 ---
 
