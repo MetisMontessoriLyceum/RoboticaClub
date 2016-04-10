@@ -7,6 +7,7 @@ image: ""
 ---
 
 
+
 Donderdag 31 april was het dan zover: Eindhoven was vier dagen lang de robot'hemel' van Europa. De European Open Championship Robocup vond namelijk plaats in het Evoluon. Je had er veel robots in allerlei soorten en maten: voetballende robots, rescuerobots, zorgrobots, robots die muziek maken, robots die dansen, robots die lijnen volgen.. robots robots en nog meer robots!
 Ook wij hebben als school natuurlijk meegedaan aan dit evenement en deze keer wel met maar liefs negen teams! Het was een geweldige ervaring en de spanning was om te snijden! En uiteindelijk hebben we zes trofeeën in de wacht gesleept!
 
@@ -28,10 +29,16 @@ Voor het NK hadden we wel zes leerlingen die meededen en die allemaal hun eigen 
 Dan hebben we nog de vijf dames die dit jaar voor het eerst hebben meegedaan aan de danswedstrijd: Eline(2V), Rosalie(2V), Abir(1VH), Reyhan(1VH) en Taïs(1VH). Deze dames hebben de afgelopen tijd hard gewerkt! De dansvoorstelling hield in dat een ballerinarobot een battle moest gaan houden met een raprobot (ja, hoe verzin je het ;)). De eerste oefenronde ging niet erg goed. Werk aan de winkel! De tweede ronde ging wat beter, maar de rapper had niet veel zin om te bewegen. In de derde ronde ging alles perfect! Dus een eerste plaats op het NK. Wat een vreugde! Voor herhaling vatbaar dus. En misschien wel in Leipzig (WK Robocup)?
 
 
+
 Ik zou graag de volgende mensen nog willen bedanken:
-Harry Oudejans: ontzettend bedankt voor de ondersteuning van het damesteam. Dankzij jou hebben ze aan hun technische vaardigheden kunnen werken om een goed onderstel te maken voor hun robot;
-Astrid Krijger: ontzettend bedankt voor het ondersteunen van de dames m.b.t. het creatieve gedeelte;
-Adem Ozturk: mijn steun en toeverlaat! Jij doet gewoon alles waar ik in tekort kom (jij en ik weten dat dat geen korte lijst is). Dankzij jou hebben de leerlingen nog de laatste puntjes op de i kunnen zetten.
+- Harry Oudejans: ontzettend bedankt voor de ondersteuning van het damesteam. Dankzij jou hebben ze aan hun technische vaardigheden kunnen werken om een goed onderstel te maken voor hun robot;
+
+- Astrid Krijger: ontzettend bedankt voor het ondersteunen van de dames m.b.t. het creatieve gedeelte;
+
+- Adem Ozturk: mijn steun en toeverlaat! Jij doet gewoon alles waar ik in tekort kom (jij en ik weten dat dat geen korte lijst is). Dankzij jou hebben de leerlingen nog de laatste puntjes op de i kunnen zetten.
+
+
+
 Voor een impressie van het toernooi zou je de volgende filmpjes kunnen bekijken:
 https://www.youtube.com/watch?v=agF7lPNDK48
 https://www.youtube.com/watch?v=1lUMCD2ld24
