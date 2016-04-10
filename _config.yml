@@ -44,3 +44,7 @@ prose:
         field:
           element: "text"
           placeholder: "name"
+      - name: "image"
+        field:
+          element: "text"
+          placeholder: "image eg. noah-robot.jpg"
