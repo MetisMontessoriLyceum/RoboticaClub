@@ -3,7 +3,7 @@ title: RoboticaClub
 description: >
   Dit is de Metis RoboticaClub, hier zijn wij dag en nacht bezig met robots
   maken.
-baseurl: ""
+baseurl: "/RoboticaClub"
 url: "http://metismontessorilyceum.github.io"
 
 # Build settings
