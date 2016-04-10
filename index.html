@@ -14,7 +14,11 @@ layout: default
       {% for post in site.posts %}
         {% if post.category == 'team' %}
           <div class="person">
-            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            {% if post.image != "" %}
+              <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
+            {% else %}
+              <div class="image" style="background-image: url({{ site.baseurl }}/assets/default-profile-image.png);"></div>
+            {% endif %}
             <div class="info">
               <strong>{{ post.title }}</strong>
               <a href="{{ site.baseurl }}{{ post.url }}">More</a>
@@ -22,61 +26,7 @@ layout: default
             </div>
         {% endif %}
       {% endfor %}
-      {% for post in site.posts %}
-        {% if post.category == 'team' %}
-          <div class="person">
-            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
-            <div class="info">
-              <strong>{{ post.title }}</strong>
-              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
-            </div>
-            </div>
-        {% endif %}
-      {% endfor %}
-      {% for post in site.posts %}
-        {% if post.category == 'team' %}
-          <div class="person">
-            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
-            <div class="info">
-              <strong>{{ post.title }}</strong>
-              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
-            </div>
-            </div>
-        {% endif %}
-      {% endfor %}
-      {% for post in site.posts %}
-        {% if post.category == 'team' %}
-          <div class="person">
-            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
-            <div class="info">
-              <strong>{{ post.title }}</strong>
-              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
-            </div>
-            </div>
-        {% endif %}
-      {% endfor %}
-      {% for post in site.posts %}
-        {% if post.category == 'team' %}
-          <div class="person">
-            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
-            <div class="info">
-              <strong>{{ post.title }}</strong>
-              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
-            </div>
-            </div>
-        {% endif %}
-      {% endfor %}
-      {% for post in site.posts %}
-        {% if post.category == 'team' %}
-          <div class="person">
-            <div class="image" style="background-image: url({{ site.baseurl }}/assets/{{ post.image }});"></div>
-            <div class="info">
-              <strong>{{ post.title }}</strong>
-              <a href="{{ site.baseurl }}{{ post.url }}">More</a>
-            </div>
-            </div>
-        {% endif %}
-      {% endfor %}
+    </div>
   </div>
 
   <div class="blog">
