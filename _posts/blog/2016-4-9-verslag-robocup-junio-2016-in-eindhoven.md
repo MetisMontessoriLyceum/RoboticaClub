@@ -23,7 +23,7 @@ Rescue Line is de naam van de rescuecompetitie waar Noah en River aan hebben mee
 Dit is de categorie waar we als zijnde school redelijk goed in beginnen te worden. Terwijl donderdag en vrijdag Emirhan Aydin (3V) steeds de snelste tijd had van alle deelnemers (ook Europese teams!), lukte het op zaterdag helaas niet meer. De robot raakte meerdere malen van de lijn af in de finale: dus een derde plek op het EK.
 Voor het NK hadden we wel zes leerlingen die meededen en die allemaal hun eigen robot hadden: Emirhan(3V), Marius(2V), Raoul(1VH), Zaynoel (2V), Hidde (1VH), Joost (4H). Van alle teams die meededen gingen er vier door naar de finale. En van de vier waren dat drie leerlingen van onze school: Raoul, Hidde en Emirhan! Hidde werd een goede vierde, Emirhan verloor de finale van Raoul! Dus ook in deze categorie in totaal drie troffeeën in de wacht gesleept.
 
-## Danswedstrijd:
+## Danswedstrijd
 
 Dan hebben we nog de vijf dames die dit jaar voor het eerst hebben meegedaan aan de danswedstrijd: Eline(2V), Rosalie(2V), Abir(1VH), Reyhan(1VH) en Taïs(1VH). Deze dames hebben de afgelopen tijd hard gewerkt! De dansvoorstelling hield in dat een ballerinarobot een battle moest gaan houden met een raprobot (ja, hoe verzin je het ;)). De eerste oefenronde ging niet erg goed. Werk aan de winkel! De tweede ronde ging wat beter, maar de rapper had niet veel zin om te bewegen. In de derde ronde ging alles perfect! Dus een eerste plaats op het NK. Wat een vreugde! Voor herhaling vatbaar dus. En misschien wel in Leipzig (WK Robocup)?
 
