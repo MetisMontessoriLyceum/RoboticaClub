@@ -28,6 +28,8 @@ header {
     max-width: 300px;
     margin: 0px auto;
     padding: 15px;
+    font-family: 'open sans';
+    font-weight: 600;
   }
   .button-container {
     text-align: center;
@@ -38,6 +40,8 @@ header {
       border: 2px solid white;
       color: white;
       text-decoration: none;
+      font-family: 'open sans';
+      font-weight: 600;
       i {
         margin-left: 5px;
       }
