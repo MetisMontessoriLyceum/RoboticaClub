@@ -28,8 +28,9 @@ var data = {
   letter: 0,
   thingsYouCanLearn: [
     'build a robot',
-    'make a website',
-    'develop a game',
+    'program a robot',
+    'program an Arduino',
+    'make a line follower',
     'do anything.'
   ]
 }
